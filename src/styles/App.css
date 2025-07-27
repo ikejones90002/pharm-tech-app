@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  background: #f0f4f8;
+  padding: 30px;
+}
+
+.flashcard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px 0;
+  white-space: pre-line;
+}
+
+.card.flipped {
+  background: #f9f9f9;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
